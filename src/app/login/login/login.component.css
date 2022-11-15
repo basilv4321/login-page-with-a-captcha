@@ -1,0 +1,54 @@
+.inblo{
+    display: inline-block;
+}
+.all1{
+    width: 62%;
+    padding-left: 90px;
+}
+.all{
+    margin-top: 7%;
+    
+}
+.all2{
+    border-radius: 6%;
+    width: 362px;
+    height: 392px;
+    background-color: white;
+}
+.username{
+    padding-top: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.password{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.logbtn{
+    padding-inline: 140px;
+}
+.cont{
+    background-color: whitesmoke;
+    height: 40rem;
+}
+.sgnbtn{
+    /* padding-inline: 40px; */
+    border: none;
+    background-color: inherit;
+    color: green;
+    font-weight: 30px;
+}
+.loginp{
+    height: 42px;
+}
+.myinp{
+    margin-top: 15%;
+    margin-left: 68%;
+}
+.inv{
+    padding-left: 16px;
+    height: 21px;
+}
+.loginp1{
+    height: 34px;
+}

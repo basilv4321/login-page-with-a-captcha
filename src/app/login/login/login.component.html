@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="myinp">
+                    <div class="inblo border all2">
+                        <form action="" >
+                            <div class="mb-5 mt-4 username loginp">
+                                <input type="text" placeholder="username"  id="id_username"  class="form-control" name="username">
+            
+                            </div>
+                            <div class="mb-4 password loginp">
+                                <input type="password" placeholder="password" id="id_password"  class="form-control" name="password">
+            
+                            </div>
+
+                            <div class="mb-1 password loginp">
+                                <span class="fw-bolder">captcha:</span> &nbsp;&nbsp; {{captcha}}
+            
+                            </div>
+
+                            <div class="password loginp loginp1">
+                                <input type="text" placeholder="enter captcha"  id="id_captcha"  class="" (change)="getCap($event)"  name="cap">
+                                
+                            </div>
+                            <div class="inv mb-2">
+                                <div  *ngIf="captchaValid">
+                                    <span class=" text-danger" >invalid captcha</span> &nbsp;&nbsp;
+                                </div>
+                            </div>
+                            
+                            <div class="mb-2 text-center ">
+                                <button class="btn btn-success logbtn"   (click)="login()">LOGIN</button>
+                            </div>
+                            
+                        </form>
+
+                        <div class="text-center">
+                            if not registered? <button class="sgnbtn" type="button" (click)="navigateToRegister()">Signup</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
